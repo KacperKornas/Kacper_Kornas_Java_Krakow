@@ -88,5 +88,28 @@
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <!-- exec: run Main class with arguments -->
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>exec-maven-plugin</artifactId>
+        <version>3.1.0</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>java</goal>
+            </goals>
+          </execution>
+        </executions>
+        <configuration>
+          <workingDirectory>${project.build.outputDirectory}</workingDirectory>
+          <mainClass>com.kacper.kornas.Main</mainClass>
+          <arguments>
+            <argument>orders.json</argument>
+            <argument>paymentmethods.json</argument>
+          </arguments>
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>
