@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f53fe383-2632-43de-bbe4-a2393a86d77a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/model/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/model/OrderRaw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/model/PaymentMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/model/PaymentMethodRaw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/parser/JsonOrderParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/parser/JsonPaymentMethodParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/service/PromotionOptimizer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kacper/kornas/parser/JsonOrderParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kacper/kornas/parser/JsonPaymentMethodParserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/kacper/kornas/service/PromotionOptimizerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kacper/kornas/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
