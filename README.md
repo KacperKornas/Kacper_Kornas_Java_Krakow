@@ -51,7 +51,7 @@ target/PaymentOptimizer-1.0-SNAPSHOT.jar
 Use the fat JAR to quickly run the application in any Java environment without installing additional dependencies. Provide the paths to the JSON files (by default in `data/`):
 
 ```bash
-java -jar target/PaymentOptimizer-1.0-SNAPSHOT.jar data/orders.json data/paymentmethods.json
+java -jar target/PaymentOptimizer-1.0-SNAPSHOT.jar orders.json paymentmethods.json
 ```
 
 **Example output:**
